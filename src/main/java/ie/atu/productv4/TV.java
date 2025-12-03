@@ -1,8 +1,5 @@
 package ie.atu.productv4;
 
-import ie.atu.productv3.Product;
-
-
 public class TV extends Product {
 
     private String manufacturer;
@@ -33,6 +30,6 @@ public class TV extends Product {
 
     @Override
     public String toString() {
-        return super.toString() + " by " + manufacturer + "\nThe Size is" + size + "'";
+        return super.toString() + " by " + manufacturer + "\nThe Size is " + size + "";
     }
 }
